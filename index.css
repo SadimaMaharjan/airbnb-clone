@@ -5,3 +5,9 @@
 body {
   margin: 0;
 }
+
+.header {
+  padding: 20px 36px;
+  height: 70px;
+  box-shadow: 0 5px 10px #e5e5e5;
+}
