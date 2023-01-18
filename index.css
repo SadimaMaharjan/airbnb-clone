@@ -38,3 +38,69 @@ body {
   text-align: left;
   margin-top: 0;
 }
+
+.card-wrapper {
+  padding: 0 30px 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  width: 176px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-photo {
+  border-radius: 9px;
+}
+
+.review {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2px;
+  margin-top: 6px;
+}
+
+.star-icon {
+  width: 14px;
+}
+
+.noReviews,
+.country,
+.rating,
+.dot,
+.description,
+.per-person {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+/* .noReviews,
+.country,
+.rating .star-icon {
+  margin: 0 5px;
+} */
+
+.noReviews,
+.country,
+.dot {
+  color: #918e9b;
+}
+
+.rating {
+  color: #222222;
+}
+
+.description {
+  color: #222222;
+  margin: 5px 0;
+}
+
+.price {
+  font-weight: 600;
+  color: #222222;
+  margin: 0;
+}
