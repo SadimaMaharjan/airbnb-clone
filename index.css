@@ -4,10 +4,37 @@
 
 body {
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .header {
   padding: 20px 36px;
   height: 70px;
   box-shadow: 0 5px 10px #e5e5e5;
+}
+
+.hero-content {
+  margin: 20px 0;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-grid {
+  max-width: 400px;
+  align-self: center;
+}
+
+.page-header {
+  font-weight: 600;
+  font-size: 36px;
+  text-align: left;
+  margin: 20px 0 0 0;
+}
+
+.hero-content p {
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 0;
 }
