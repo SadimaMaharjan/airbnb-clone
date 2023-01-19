@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/SadimaMaharjan/airbnb-clone#readme",
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.8.2",
+    "@parcel/transformer-webmanifest": "^2.8.2",
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "^2.27.5",

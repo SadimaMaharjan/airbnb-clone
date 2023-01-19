@@ -1,5 +1,5 @@
 import React from "react";
-//import picture from "../images/Katie.png";
+
 import star from "../public/images/Star-icon.png";
 
 export default function Card(props) {
@@ -7,7 +7,7 @@ export default function Card(props) {
   return (
     <div className="card-wrapper">
       <div className="card">
-        <img src={`../public/images/${props.img}`} className="card-photo" />
+        <img src={props.img} className="card-photo" />
         <div className="review">
           <img src={star} className="star-icon" />
           <span className="rating">{props.rating}</span>
