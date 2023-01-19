@@ -42,17 +42,22 @@ body {
 .card-wrapper {
   padding: 0 30px 30px;
   display: flex;
-  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
 }
 
 .card {
   width: 176px;
   display: flex;
   flex-direction: column;
+  flex: 0 0 auto;
+  position: relative;
 }
 
 .card-photo {
   border-radius: 9px;
+  width: 100%;
 }
 
 .review {
@@ -69,10 +74,10 @@ body {
 }
 
 .noReviews,
-.country,
+.location,
 .rating,
 .dot,
-.description,
+.title,
 .per-person {
   font-weight: 300;
   font-size: 12px;
@@ -85,7 +90,7 @@ body {
 } */
 
 .noReviews,
-.country,
+.location,
 .dot {
   color: #918e9b;
 }
@@ -94,7 +99,7 @@ body {
   color: #222222;
 }
 
-.description {
+.title {
   color: #222222;
   margin: 5px 0;
 }
@@ -103,4 +108,14 @@ body {
   font-weight: 600;
   color: #222222;
   margin: 0;
+}
+
+.cardBadge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
